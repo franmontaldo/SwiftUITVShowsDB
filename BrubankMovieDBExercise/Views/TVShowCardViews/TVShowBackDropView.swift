@@ -24,7 +24,7 @@ struct TVShowBackDropView: View {
                 else {
                     Rectangle()
                         .fill(Color.gray.opacity(0.3))
-                        .scaledToFill()
+                        .aspectRatio(16/9, contentMode: .fit)
                 }
                 HStack(){
                     // Title
